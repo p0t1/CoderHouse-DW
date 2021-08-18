@@ -1,0 +1,332 @@
+/* inicio DEFAULT */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: whitesmoke;
+  font-family: 'Domine', serif;
+}
+
+h1 {
+  display: none;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Domine', serif;
+}
+
+/* fin DEFAULT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio COLORES */
+/* fin COLORES ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio PLACEHOLDER */
+.gridContacto .redesSociales img, .gridContacto .contactoDirecto img, .redesSocialesAside ul li img {
+  width: 32px;
+  height: 32px;
+}
+
+.gridContacto .redesSociales a, .gridContacto .contactoDirecto a {
+  padding: 0px 10px;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #A5E6BA;
+  padding: 10px;
+  font-size: 2.4rem;
+  margin: 5px 0px 10px 0px;
+  border-top: solid rebeccapurple 1px;
+  border-bottom: solid rebeccapurple 1px;
+  font-weight: 800;
+}
+
+/* fin PLACEHOLDER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio MIXING */
+/* fin MIXING --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio HEADER */
+/* inicio GRID TOPBAR */
+.gridContacto {
+  display: grid;
+  grid-template-areas: "redesSociales contactoDirecto";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.gridContacto .redesSociales {
+  grid-area: "redesSociales";
+  background-color: #360568;
+}
+
+.gridContacto .redesSociales img {
+  margin: 10px;
+}
+
+.gridContacto .contactoDirecto {
+  grid-area: "contactoDirecto";
+  padding: 10px;
+  display: flex;
+  background-color: #360568;
+  justify-content: end;
+}
+
+/* fin GRID TOP BAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio MENU PRINCIPAL */
+.menuPrincipal img {
+  width: 200px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.menuPrincipal li {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.menuPrincipal li:hover {
+  background-color: #A5E6BA;
+  transition: 850ms;
+}
+
+.menuPrincipal li a {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 600;
+  font-stretch: expanded;
+}
+
+/* fin MENU PRINCIPAL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* fin HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio MAIN */
+/* inicio CURSOS */
+.imagebox {
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.imagebox img {
+  opacity: 1;
+  transition: 0.5s opacity;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.imagebox .imagebox-desc {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 500;
+  background-color: #A5E6BA;
+  bottom: 0px;
+  left: 0px;
+  padding: 5px 5px 5px 10px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.imagebox:hover img {
+  opacity: 0.7;
+}
+
+/* fin CURSOS -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio TEXTO DIRECCION Y CONTACTO */
+.direccionContacto {
+  margin: 10px 0px;
+}
+
+.direccionContacto ul {
+  list-style: none;
+}
+
+.direccionContacto li {
+  font-size: 2.4rem;
+  color: black;
+  font-weight: 700;
+  margin-top: 55px;
+  text-align: center;
+}
+
+/* fin TEXTO DIRECCION Y CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio CAROUSEL */
+.carrusel * {
+  border-radius: 12px;
+}
+
+.carousel-inner img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio PAGINA GOOGLE MAPS */
+.parrafoGoogleMaps {
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+}
+
+.margenesGoogleMaps {
+  margin-bottom: 10px;
+}
+
+/* fin PAGINA GOOGLE MAPS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio FORMULARIO */
+.bigicon {
+  font-size: 1.8rem;
+  color: #A5E6BA;
+}
+
+.formulario * {
+  font-size: 1.8rem;
+  color: black;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-group button {
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  background-color: #A5E6BA;
+  border: #A5E6BA;
+}
+
+/* fin FORMULARIO -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio FAQ */
+.faq {
+  font-size: 1.8rem;
+  color: black;
+}
+
+.faq div h3 button {
+  font-size: 1.8rem;
+  color: black;
+}
+
+.faq div .accordion-button {
+  background-color: whitesmoke;
+}
+
+.faq div div div {
+  font-size: 1.6rem;
+  color: black;
+}
+
+/* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio ASIDE */
+.divisorVioleta {
+  border-top: solid rebeccapurple 20px;
+  margin: 0px 0px 10px 0px;
+}
+
+.alineacionAside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+aside {
+  background-color: whitesmoke;
+}
+
+.aside__googleMaps * {
+  margin: 0px 10px 10px;
+  border-radius: 20px;
+}
+
+.direccionContactoAside {
+  display: flex;
+}
+
+.direccionContactoAside ul {
+  list-style: none;
+}
+
+.direccionContactoAside li {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.redesSocialesAside {
+  display: flex;
+  justify-content: left;
+}
+
+.redesSocialesAside ul {
+  list-style: none;
+}
+
+.redesSocialesAside ul li {
+  font-size: 1.6rem;
+  color: black;
+  margin-top: 20px;
+}
+
+.redesSocialesAside ul li img {
+  margin: 10px;
+}
+
+.menuAside {
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+}
+
+.menuAside li {
+  font-size: 1.6rem;
+  color: black;
+  border-radius: 12px;
+  margin-top: 3px;
+}
+
+.menuAside a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menuAside a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.menuAside li:hover {
+  background-color: #A5E6BA;
+  transition: 850ms;
+}
+
+.asideLogo {
+  width: 100%;
+}
+
+/* fin ASIDE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio FOOTER */
+footer p {
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #360568;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 0px;
+}
+
+/* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*# sourceMappingURL=main.css.map */
