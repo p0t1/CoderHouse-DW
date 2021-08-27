@@ -85,11 +85,11 @@ $blancoHumo: whitesmoke;
 
 /* inicio GRID TOPBAR */
 
-.gridContacto {
+/* .gridContacto {
     display: grid;
     grid-template-areas: 
         "redesSociales contactoDirecto";
-    grid-template-columns: auto auto;
+    grid-template-columns: 82% 18%;
     grid-template-rows: auto auto;
     .redesSociales {
         grid-area: "redesSociales";
@@ -107,7 +107,8 @@ $blancoHumo: whitesmoke;
         padding: 10px;
         display: flex;
         background-color: $violeta;
-        justify-content: end;
+        justify-content: right;
+        justify-items: right;
         img {
             @extend %iconos;
         }
@@ -336,9 +337,13 @@ h2 {
 
 /* inicio DIVISOR */
 
-.divisorVioletaMenu {
+.divisorVioletaTop1 {
     border-top: solid $violetaBordes 20px;
-    margin: 0px 0px 10px 0px;
+}
+
+.divisorVioletaTop2 {
+    border-top: solid $violetaBordes 20px;
+    margin-bottom: 10px;
 }
 
 .divisorVioletaFooter {
@@ -348,7 +353,7 @@ h2 {
 
 .divisorVioleta {
     border-top: solid $violetaBordes 20px;
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 30px 0px;
 }
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
@@ -367,9 +372,10 @@ aside {
     background-color: whitesmoke;
 }
 
-.aside__googleMaps *{
+.asideGoogleMaps *{
     margin: 0px 10px 10px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .direccionContactoAside{

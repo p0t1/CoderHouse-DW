@@ -20,16 +20,9 @@ body {
 /* inicio COLORES */
 /* fin COLORES ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio PLACEHOLDER */
-.gridContacto .redesSociales img, .gridContacto .contactoDirecto img, .redesSocialesAside ul li img {
+.redesSocialesAside ul li img {
   width: 32px;
   height: 32px;
-}
-
-.gridContacto .redesSociales a, .gridContacto .contactoDirecto a {
-  padding: 0px 10px;
-  font-size: 1.4rem;
-  color: whitesmoke;
-  text-decoration: none;
 }
 
 h1, h2 {
@@ -49,31 +42,43 @@ h1, h2 {
 /* fin MIXING --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio HEADER */
 /* inicio GRID TOPBAR */
-.gridContacto {
-  display: grid;
-  grid-template-areas: "redesSociales contactoDirecto";
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+/* .gridContacto {
+    display: grid;
+    grid-template-areas: 
+        "redesSociales contactoDirecto";
+    grid-template-columns: 82% 18%;
+    grid-template-rows: auto auto;
+    .redesSociales {
+        grid-area: "redesSociales";
+        background-color: $violeta;
+        img {
+            @extend %iconos;
+            margin: 10px;
+        }
+        a {
+            @extend %topBarText;
+        }
+    }
+    .contactoDirecto {
+        grid-area: "contactoDirecto";
+        padding: 10px;
+        display: flex;
+        background-color: $violeta;
+        justify-content: right;
+        justify-items: right;
+        img {
+            @extend %iconos;
+        }
+        a {
+            @extend %topBarText;
+        }
+    }
 }
 
-.gridContacto .redesSociales {
-  grid-area: "redesSociales";
-  background-color: #360568;
-}
 
-.gridContacto .redesSociales img {
-  margin: 10px;
-}
 
-.gridContacto .contactoDirecto {
-  grid-area: "contactoDirecto";
-  padding: 10px;
-  display: flex;
-  background-color: #360568;
-  justify-content: end;
-}
 
-/* fin GRID TOP BAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /* fin GRID TOP BAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio MENU PRINCIPAL */
 .menuPrincipal img {
   width: 200px;
@@ -273,9 +278,13 @@ h2 {
 
 /* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio DIVISOR */
-.divisorVioletaMenu {
+.divisorVioletaTop1 {
   border-top: solid rebeccapurple 20px;
-  margin: 0px 0px 10px 0px;
+}
+
+.divisorVioletaTop2 {
+  border-top: solid rebeccapurple 20px;
+  margin-bottom: 10px;
 }
 
 .divisorVioletaFooter {
@@ -285,7 +294,7 @@ h2 {
 
 .divisorVioleta {
   border-top: solid rebeccapurple 20px;
-  margin: 30px 0px 30px 0px;
+  margin: 20px 0px 30px 0px;
 }
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
@@ -301,9 +310,10 @@ aside {
   background-color: whitesmoke;
 }
 
-.aside__googleMaps * {
+.asideGoogleMaps * {
   margin: 0px 10px 10px;
   border-radius: 20px;
+  width: 100%;
 }
 
 .direccionContactoAside {
