@@ -100,7 +100,7 @@ h1, h2 {
 
 /* fin MENU PRINCIPAL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* fin HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio CURSOS */
+/* inicio CURSOS INDEX */
 h1 {
   margin: 20px 0px;
 }
@@ -143,7 +143,49 @@ h2 {
   opacity: 0.7;
 }
 
-/* fin CURSOS -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* fin CURSOS INDEX -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio CURSOS */
+.curso {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.curso h3 {
+  background-color: #A5E6BA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+.curso p {
+  background-color: white;
+  font-size: 1.6rem;
+  padding: 10px;
+  margin: 0px;
+}
+
+.curso button {
+  font-size: 1.6rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+}
+
+.curso:hover img {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.curso:hover h3 {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+/* fin CURSOS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio TEXTO DIRECCION Y CONTACTO */
 .direccionContacto {
   margin: 10px 0px;
