@@ -13,10 +13,6 @@ html {
 
 }
 
-h1 {
-    display: none;
-}
-
 body {
     background-color: whitesmoke;
     font-family: 'Domine', serif;
@@ -155,9 +151,12 @@ $blancoHumo: whitesmoke;
 /* fin HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* inicio MAIN */
-
 /* inicio CURSOS */
+
+h1 {
+    @extend %tituloVerde;
+    margin: 20px 0px;
+}
 
 h2 {
     @extend %tituloVerde;
@@ -225,7 +224,6 @@ h2 {
 .carousel-inner img {
     margin: auto;
     margin-bottom: 10px;
-    
 }
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -236,7 +234,6 @@ h2 {
 .parrafoGoogleMaps {
     @include fontSet(1.8rem,black);
     text-align: center;
-    
 }
 
 .margenesGoogleMaps {
@@ -292,10 +289,11 @@ h2 {
     }
 }
 
+
 /* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* inicio ASIDE */
+/* inicio DIVISOR */
 
 .divisorVioletaMenu {
     border-top: solid $violetaBordes 20px;
@@ -311,6 +309,11 @@ h2 {
     border-top: solid $violetaBordes 20px;
     margin: 30px 0px 30px 0px;
 }
+
+/* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
+
+
+/* inicio FOOTER */
 
 .alineacionAside {
     display: flex;
@@ -362,7 +365,6 @@ aside {
 }
 
 
-
 .menuAside {
     text-align: center;
     margin: 5px 0px 0px 0px;    
@@ -391,12 +393,6 @@ aside {
     width: 100%;
 }
 
-
-
-/* fin ASIDE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-/* inicio FOOTER */
 
 footer {
     p {
