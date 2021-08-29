@@ -292,8 +292,16 @@ h2 {
     color: $verde;
 }
 
-.formulario * {
-    @include fontSet(1.8rem,black )
+.formulario {
+    margin-left: 25%;
+    margin-right: 25%;
+    div {
+        width: 100%;
+    }
+    * {
+    @include fontSet(1.8rem,black );
+    }
+
 }
 
 .form-group {
@@ -325,9 +333,6 @@ h2 {
         }
         .accordion-button {
             background-color: whitesmoke;
-            :active {
-                color: $verde;
-            }
         }
         div {
             div {
