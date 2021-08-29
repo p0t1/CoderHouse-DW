@@ -263,6 +263,10 @@ h2 {
   color: black;
 }
 
+.faq div :active {
+  color: #A5E6BA;
+}
+
 .faq div h3 button {
   font-size: 1.8rem;
   color: black;
@@ -270,6 +274,10 @@ h2 {
 
 .faq div .accordion-button {
   background-color: whitesmoke;
+}
+
+.faq div .accordion-button :active {
+  color: #A5E6BA;
 }
 
 .faq div div div {

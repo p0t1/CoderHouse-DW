@@ -315,14 +315,19 @@ h2 {
 .faq {
     @include fontSet(1.8rem, black);
     div {
+        :active {
+            color: $verde;
+        }
         h3 {
             button {
                 @include fontSet(1.8rem, black);
-                
             }
         }
         .accordion-button {
             background-color: whitesmoke;
+            :active {
+                color: $verde;
+            }
         }
         div {
             div {
