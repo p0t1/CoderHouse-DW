@@ -28,12 +28,12 @@ body {
 h1, h2 {
   display: flex;
   justify-content: center;
-  background-color: #A5E6BA;
+  background-color: #96D168;
   padding: 10px;
   font-size: 2.4rem;
   margin: 5px 0px 10px 0px;
-  border-top: solid rebeccapurple 1px;
-  border-bottom: solid rebeccapurple 1px;
+  border-top: solid #9466DB 1px;
+  border-bottom: solid #9466DB 1px;
   font-weight: 800;
 }
 
@@ -92,7 +92,7 @@ h1, h2 {
 }
 
 .menuPrincipal li:hover {
-  background-color: #A5E6BA;
+  background-color: #96D168;
   transition: 850ms;
 }
 
@@ -132,7 +132,7 @@ h2 {
   font-size: 1.8rem;
   color: black;
   font-weight: 500;
-  background-color: #A5E6BA;
+  background-color: #96D168;
   bottom: 0px;
   left: 0px;
   padding: 5px 5px 5px 10px;
@@ -158,7 +158,7 @@ h2 {
 }
 
 .curso h3 {
-  background-color: #A5E6BA;
+  background-color: #96D168;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   font-size: 2rem;
@@ -218,6 +218,7 @@ h2 {
 .carousel-inner img {
   margin: auto;
   margin-bottom: 10px;
+  width: 80%;
 }
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -236,7 +237,7 @@ h2 {
 /* inicio FORMULARIO */
 .bigicon {
   font-size: 1.8rem;
-  color: #A5E6BA;
+  color: #96D168;
 }
 
 .formulario {
@@ -261,7 +262,7 @@ h2 {
   display: flex;
   justify-content: left;
   margin: 10px;
-  background-color: #A5E6BA;
+  background-color: #96D168;
   border: #A5E6BA;
 }
 
@@ -273,7 +274,7 @@ h2 {
 }
 
 .faq div :active {
-  color: #A5E6BA;
+  color: #96D168;
 }
 
 .faq div h3 button {
@@ -293,21 +294,21 @@ h2 {
 /* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio DIVISOR */
 .divisorVioletaTop1 {
-  border-top: solid rebeccapurple 20px;
+  border-top: solid #9466DB 20px;
 }
 
 .divisorVioletaTop2 {
-  border-top: solid rebeccapurple 20px;
+  border-top: solid #9466DB 20px;
   margin-bottom: 10px;
 }
 
 .divisorVioletaFooter {
-  border-top: solid rebeccapurple 20px;
+  border-top: solid #9466DB 20px;
   margin: 30px 0px 20px 0px;
 }
 
 .divisorVioleta {
-  border-top: solid rebeccapurple 20px;
+  border-top: solid #9466DB 20px;
   margin: 20px 0px 30px 0px;
 }
 
@@ -349,7 +350,7 @@ aside {
 
 .redesSocialesAside {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .redesSocialesAside ul {
@@ -363,7 +364,13 @@ aside {
 }
 
 .redesSocialesAside ul li img {
-  margin: 10px;
+  margin: 10px 5px;
+}
+
+.redesSocialesAside ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .menuAside {
@@ -391,18 +398,19 @@ aside {
 }
 
 .menuAside li:hover {
-  background-color: #A5E6BA;
+  background-color: #96D168;
   transition: 850ms;
 }
 
 .asideLogo {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 footer p {
   font-size: 2rem;
   color: whitesmoke;
-  background-color: #360568;
+  background-color: #9466DB;
   text-align: center;
   padding: 12px;
   margin-bottom: 0px;

@@ -24,9 +24,8 @@ body {
 
 /* inicio COLORES */
 
-$verde: #A5E6BA;
-$violeta: #360568;
-$violetaBordes: rebeccapurple;
+$verde: #96D168;
+$violeta: #9466DB;
 $blancoHumo: whitesmoke;
 
 /* fin COLORES ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -53,8 +52,8 @@ $blancoHumo: whitesmoke;
     padding: 10px;
     font-size: 2.4rem;
     margin: 5px 0px 10px 0px;
-    border-top: solid $violetaBordes 1px;
-    border-bottom: solid $violetaBordes 1px;
+    border-top: solid $violeta 1px;
+    border-bottom: solid $violeta 1px;
     font-weight: 800;
 }
 
@@ -267,7 +266,9 @@ h2 {
 .carousel-inner img {
     margin: auto;
     margin-bottom: 10px;
+    width: 80%;
 }
+
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -349,21 +350,21 @@ h2 {
 /* inicio DIVISOR */
 
 .divisorVioletaTop1 {
-    border-top: solid $violetaBordes 20px;
+    border-top: solid $violeta 20px;
 }
 
 .divisorVioletaTop2 {
-    border-top: solid $violetaBordes 20px;
+    border-top: solid $violeta 20px;
     margin-bottom: 10px;
 }
 
 .divisorVioletaFooter {
-    border-top: solid $violetaBordes 20px;
+    border-top: solid $violeta 20px;
     margin: 30px 0px 20px 0px;
 }
 
 .divisorVioleta {
-    border-top: solid $violetaBordes 20px;
+    border-top: solid $violeta 20px;
     margin: 20px 0px 30px 0px;
 }
 
@@ -406,7 +407,7 @@ aside {
 .redesSocialesAside{
     
     display: flex;
-    justify-content: left;
+    justify-content: center;
     ul {
         list-style: none;
         li {
@@ -414,7 +415,12 @@ aside {
             margin-top: 20px;
             img {
                 @extend %iconos;
-                margin: 10px;
+                margin: 10px 5px;
+            }
+            a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
             }
         }
 
@@ -450,13 +456,14 @@ aside {
 
 .asideLogo {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
 footer {
     p {
         @include fontSet(2rem, whitesmoke);
-        background-color: #360568;
+        background-color: $violeta;
         text-align: center;
         padding: 12px;
         margin-bottom: 0px;
