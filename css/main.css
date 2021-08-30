@@ -28,7 +28,7 @@ body {
 h1, h2 {
   display: flex;
   justify-content: center;
-  background-color: #96D168;
+  background-color: #99CF68;
   padding: 10px;
   font-size: 2.4rem;
   margin: 5px 0px 10px 0px;
@@ -92,7 +92,7 @@ h1, h2 {
 }
 
 .menuPrincipal li:hover {
-  background-color: #96D168;
+  background-color: #99CF68;
   transition: 850ms;
 }
 
@@ -132,7 +132,7 @@ h2 {
   font-size: 1.8rem;
   color: black;
   font-weight: 500;
-  background-color: #96D168;
+  background-color: #99CF68;
   bottom: 0px;
   left: 0px;
   padding: 5px 5px 5px 10px;
@@ -158,7 +158,7 @@ h2 {
 }
 
 .curso h3 {
-  background-color: #96D168;
+  background-color: #99CF68;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   font-size: 2rem;
@@ -237,7 +237,7 @@ h2 {
 /* inicio FORMULARIO */
 .bigicon {
   font-size: 1.8rem;
-  color: #96D168;
+  color: #99CF68;
 }
 
 .formulario {
@@ -262,7 +262,7 @@ h2 {
   display: flex;
   justify-content: left;
   margin: 10px;
-  background-color: #96D168;
+  background-color: #99CF68;
   border: #A5E6BA;
 }
 
@@ -274,7 +274,7 @@ h2 {
 }
 
 .faq div :active {
-  color: #96D168;
+  color: #99CF68;
 }
 
 .faq div h3 button {
@@ -348,11 +348,6 @@ aside {
   text-align: center;
 }
 
-.direccionContactoAside li p {
-  text-decoration: none;
-  color: black;
-}
-
 .redesSocialesAside {
   display: flex;
   justify-content: center;
@@ -403,7 +398,7 @@ aside {
 }
 
 .menuAside li:hover {
-  background-color: #96D168;
+  background-color: #99CF68;
   transition: 850ms;
 }
 
