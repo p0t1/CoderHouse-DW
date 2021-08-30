@@ -43,6 +43,7 @@ $blancoHumo: whitesmoke;
     font-size: 1.4rem;
     color: whitesmoke;
     text-decoration: none;
+
 }
 
 %tituloVerde {
@@ -80,48 +81,6 @@ $blancoHumo: whitesmoke;
 
 
 /* inicio HEADER */
-
-
-/* inicio GRID TOPBAR */
-
-/* .gridContacto {
-    display: grid;
-    grid-template-areas: 
-        "redesSociales contactoDirecto";
-    grid-template-columns: 82% 18%;
-    grid-template-rows: auto auto;
-    .redesSociales {
-        grid-area: "redesSociales";
-        background-color: $violeta;
-        img {
-            @extend %iconos;
-            margin: 10px;
-        }
-        a {
-            @extend %topBarText;
-        }
-    }
-    .contactoDirecto {
-        grid-area: "contactoDirecto";
-        padding: 10px;
-        display: flex;
-        background-color: $violeta;
-        justify-content: right;
-        justify-items: right;
-        img {
-            @extend %iconos;
-        }
-        a {
-            @extend %topBarText;
-        }
-    }
-}
-
-
-
-
-    /* fin GRID TOP BAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
     /* inicio MENU PRINCIPAL */
 
