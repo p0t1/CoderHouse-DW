@@ -348,6 +348,11 @@ aside {
   text-align: center;
 }
 
+.direccionContactoAside li p {
+  text-decoration: none;
+  color: black;
+}
+
 .redesSocialesAside {
   display: flex;
   justify-content: center;
