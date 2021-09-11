@@ -59,13 +59,13 @@ h2 {
         border-top-right-radius: 20px;
         font-size: 2rem;
         text-align: center;
-        padding: 10px;
+        padding: 10px 0px;
         margin: 0px;
     }
     p {
         background-color: white;
         font-size: 1.6rem;
-        padding: 10px;
+        padding: 10px 0px;
         margin: 0px;
     }
     button {
@@ -109,12 +109,19 @@ h2 {
 
 /* inicio CAROUSEL */
 
+
 .carrusel *{
     border-radius: 12px;
     .carruselInner img {
         margin: auto;
         margin-bottom: 10px;
         width: 80%;
+    }
+}
+
+@media (max-width:720px) {
+    #carouselExampleSlidesOnly {
+        display:none !important;
     }
 }
 
@@ -217,7 +224,4 @@ h2 {
 }
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
-
-
-
 
