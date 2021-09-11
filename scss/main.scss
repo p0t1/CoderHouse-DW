@@ -119,7 +119,7 @@ h1 {
 h2 {
     @extend %tituloVerde;
     margin: 20px 0px;
-    @media (max-width: 600px){
+    @media (max-width: 750px){
         font-size: 1.8rem;
     }
 }
@@ -220,7 +220,7 @@ h2 {
         margin: 40px;
         font-weight: 700;
         text-align: center;
-        @media (max-width: 600px) {
+        @media (max-width: 900px) {
             @include fontSet(1.8rem, black);
             margin: 20px
         }
@@ -241,7 +241,7 @@ h2 {
     }
 }
 
-@media (max-width:720px) {
+@media (max-width:900px) {
     #carouselExampleSlidesOnly {
         display:none !important;
     }
@@ -351,7 +351,7 @@ h2 {
 .divisorVioletaTop2SmallHide {
     border-top: solid $violeta 20px;
     margin-bottom: 10px;
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         display: none;
     }
 }

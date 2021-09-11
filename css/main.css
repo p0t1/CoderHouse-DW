@@ -77,7 +77,7 @@ h2 {
   margin: 20px 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   h2 {
     font-size: 1.8rem;
   }
@@ -190,7 +190,7 @@ h2 {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .direccionContacto li {
     font-size: 1.8rem;
     color: black;
@@ -210,7 +210,7 @@ h2 {
   width: 80%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   #carouselExampleSlidesOnly {
     display: none !important;
   }
@@ -328,7 +328,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .divisorVioletaTop2SmallHide {
     display: none;
   }
