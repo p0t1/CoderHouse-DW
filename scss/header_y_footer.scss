@@ -1,0 +1,129 @@
+/* inicio HEADER */
+
+    /* inicio MENU PRINCIPAL */
+
+    .menuPrincipal {  
+        img {
+            width: 200px;
+            height: 80px;
+            margin-left: 10px;
+        }    
+        li {
+            padding: 10px;
+            border-radius: 12px;
+        }
+        li:hover {
+            background-color: $verde;
+            transition: 850ms;
+        }
+        li a {
+            @include fontSet(1.8rem,black);
+            font-weight: 600;
+            font-stretch: expanded;
+        }
+    }
+
+    /* fin MENU PRINCIPAL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* fin HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* inicio FOOTER */
+
+.alineacionAside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+aside {
+    background-color: whitesmoke;
+}
+
+.asideGoogleMaps *{
+    margin: 0px 10px 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.direccionContactoAside{
+    display: flex;
+    ul {
+    list-style: none;
+    }
+    li {
+        @include fontSet(1.6rem, black);
+        font-weight: 800;
+        text-align: left;
+        margin-top: 22px;
+        text-align: center;
+        }
+    } 
+
+.redesSocialesAside{
+    
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+        li {
+            @include fontSet(1.6rem, black);
+            margin-top: 20px;
+            img {
+                @extend %iconos;
+                margin: 10px 5px;
+            }
+            a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            }
+        }
+
+    }
+    
+}
+
+
+.menuAside {
+    text-align: center;
+    margin: 5px 0px 0px 0px;    
+    li {   
+        @include fontSet(1.6rem,black);
+        border-radius: 12px;
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+        a {
+            color: black;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        a:hover {
+            color: black;
+            text-decoration: none; 
+        }
+    li:hover {
+        background-color: $verde;
+        transition: 850ms;
+    }
+
+}
+
+.asideLogo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    p {
+        @include fontSet(2rem, whitesmoke);
+        background-color: $violeta;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 0px;
+    }
+}
+
+/* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
