@@ -121,7 +121,7 @@ h2 {
     @extend %tituloVerde;
     margin: 20px 0px;
 }
-.imagebox {
+.cards {
     padding: 0px;
     position: relative;
     text-align: center;
@@ -132,7 +132,7 @@ h2 {
         width: 100%;
         border-radius: 25px;
     }
-    .imagebox-desc {
+    .cardsSpan {
         @include fontSet(1.8rem,black );
         font-weight: 500;
         background-color: $verde;
@@ -148,7 +148,7 @@ h2 {
     }
 }
 
-.imagebox:hover img {
+.cards:hover img {
     opacity: 0.7;
 }
 
@@ -220,14 +220,12 @@ h2 {
 
 .carrusel *{
     border-radius: 12px;
+    .carruselInner img {
+        margin: auto;
+        margin-bottom: 10px;
+        width: 80%;
+    }
 }
-
-.carousel-inner img {
-    margin: auto;
-    margin-bottom: 10px;
-    width: 80%;
-}
-
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -264,7 +262,7 @@ h2 {
 
 }
 
-.form-group {
+.formularioItem {
     margin-top: 10px;
     button {
         display: flex;
@@ -291,7 +289,7 @@ h2 {
                 @include fontSet(1.8rem, black);
             }
         }
-        .accordion-button {
+        .botonAcordion {
             background-color: whitesmoke;
         }
         div {

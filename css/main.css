@@ -41,44 +41,6 @@ h1, h2 {
 /* inicio MIXING */
 /* fin MIXING --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio HEADER */
-/* inicio GRID TOPBAR */
-/* .gridContacto {
-    display: grid;
-    grid-template-areas: 
-        "redesSociales contactoDirecto";
-    grid-template-columns: 82% 18%;
-    grid-template-rows: auto auto;
-    .redesSociales {
-        grid-area: "redesSociales";
-        background-color: $violeta;
-        img {
-            @extend %iconos;
-            margin: 10px;
-        }
-        a {
-            @extend %topBarText;
-        }
-    }
-    .contactoDirecto {
-        grid-area: "contactoDirecto";
-        padding: 10px;
-        display: flex;
-        background-color: $violeta;
-        justify-content: right;
-        justify-items: right;
-        img {
-            @extend %iconos;
-        }
-        a {
-            @extend %topBarText;
-        }
-    }
-}
-
-
-
-
-    /* fin GRID TOP BAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio MENU PRINCIPAL */
 .menuPrincipal img {
   width: 200px;
@@ -114,21 +76,21 @@ h2 {
   margin: 20px 0px;
 }
 
-.imagebox {
+.cards {
   padding: 0px;
   position: relative;
   text-align: center;
   margin: 15px 5px 15px 5px;
 }
 
-.imagebox img {
+.cards img {
   opacity: 1;
   transition: 0.5s opacity;
   width: 100%;
   border-radius: 25px;
 }
 
-.imagebox .imagebox-desc {
+.cards .cardsSpan {
   font-size: 1.8rem;
   color: black;
   font-weight: 500;
@@ -144,7 +106,7 @@ h2 {
   border-bottom-right-radius: 20px;
 }
 
-.imagebox:hover img {
+.cards:hover img {
   opacity: 0.7;
 }
 
@@ -215,7 +177,7 @@ h2 {
   border-radius: 12px;
 }
 
-.carousel-inner img {
+.carrusel * .carruselInner img {
   margin: auto;
   margin-bottom: 10px;
   width: 80%;
@@ -254,11 +216,11 @@ h2 {
   color: black;
 }
 
-.form-group {
+.formularioItem {
   margin-top: 10px;
 }
 
-.form-group button {
+.formularioItem button {
   display: flex;
   justify-content: left;
   margin: 10px;
@@ -282,7 +244,7 @@ h2 {
   color: black;
 }
 
-.faq div .accordion-button {
+.faq div .botonAcordion {
   background-color: whitesmoke;
 }
 
