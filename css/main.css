@@ -20,7 +20,7 @@ body {
 /* inicio COLORES */
 /* fin COLORES ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio PLACEHOLDER */
-.redesSocialesAside ul li img {
+.redesSocialesFooter ul li img {
   width: 32px;
   height: 32px;
 }
@@ -124,14 +124,14 @@ h2 {
   border-top-right-radius: 20px;
   font-size: 2rem;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0px;
   margin: 0px;
 }
 
 .curso p {
   background-color: white;
   font-size: 1.6rem;
-  padding: 10px;
+  padding: 10px 0px;
   margin: 0px;
 }
 
@@ -180,6 +180,12 @@ h2 {
   margin: auto;
   margin-bottom: 10px;
   width: 80%;
+}
+
+@media (max-width: 720px) {
+  #carouselExampleSlidesOnly {
+    display: none !important;
+  }
 }
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -275,32 +281,38 @@ h2 {
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
 /* inicio FOOTER */
-.alineacionAside {
+footer p {
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #9466DB;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 0px;
+}
+
+.alineacionFooter {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-around;
 }
 
-aside {
-  background-color: whitesmoke;
-}
-
-.asideGoogleMaps * {
+.GoogleMapsFooter * {
   margin: 0px 10px 10px;
   border-radius: 20px;
   width: 100%;
 }
 
-.direccionContactoAside {
+.direccionContactoFooter {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.direccionContactoAside ul {
+.direccionContactoFooter ul {
   list-style: none;
 }
 
-.direccionContactoAside li {
+.direccionContactoFooter li {
   font-size: 1.6rem;
   color: black;
   font-weight: 800;
@@ -309,37 +321,37 @@ aside {
   text-align: center;
 }
 
-.redesSocialesAside {
+.redesSocialesFooter {
   display: flex;
   justify-content: center;
 }
 
-.redesSocialesAside ul {
+.redesSocialesFooter ul {
   list-style: none;
 }
 
-.redesSocialesAside ul li {
+.redesSocialesFooter ul li {
   font-size: 1.6rem;
   color: black;
   margin-top: 20px;
 }
 
-.redesSocialesAside ul li img {
+.redesSocialesFooter ul li img {
   margin: 10px 5px;
 }
 
-.redesSocialesAside ul li a {
+.redesSocialesFooter ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.menuAside {
+.menuFooter {
   text-align: center;
   margin: 5px 0px 0px 0px;
 }
 
-.menuAside li {
+.menuFooter li {
   font-size: 1.6rem;
   color: black;
   border-radius: 12px;
@@ -347,34 +359,25 @@ aside {
   margin-bottom: 10px;
 }
 
-.menuAside a {
+.menuFooter a {
   color: black;
   font-weight: 600;
   text-decoration: none;
 }
 
-.menuAside a:hover {
+.menuFooter a:hover {
   color: black;
   text-decoration: none;
 }
 
-.menuAside li:hover {
+.menuFooter li:hover {
   background-color: #99CF68;
   transition: 850ms;
 }
 
-.asideLogo {
+.LogoFooter {
   width: 100%;
   margin-bottom: 20px;
-}
-
-footer p {
-  font-size: 2rem;
-  color: whitesmoke;
-  background-color: #9466DB;
-  text-align: center;
-  padding: 12px;
-  margin-bottom: 0px;
 }
 
 /* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
