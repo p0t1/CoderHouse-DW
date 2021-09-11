@@ -20,7 +20,7 @@ body {
 /* inicio COLORES */
 /* fin COLORES ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio PLACEHOLDER */
-.redesSocialesFooter ul li img {
+.redesSocialesFooter ul img {
   width: 32px;
   height: 32px;
 }
@@ -35,6 +35,7 @@ h2 {
   border-top: solid #9466DB 1px;
   border-bottom: solid #9466DB 1px;
   font-weight: 800;
+  width: 100%;
 }
 
 /* fin PLACEHOLDER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -76,6 +77,12 @@ h2 {
   margin: 20px 0px;
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
 .contenedor {
   width: 98%;
 }
@@ -96,7 +103,7 @@ h2 {
 }
 
 .cards .cardsSpan {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: black;
   font-weight: 500;
   background-color: #99CF68;
@@ -108,6 +115,13 @@ h2 {
   width: 100%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .cards .cardsSpan {
+    font-size: 1.5rem;
+    color: black;
+  }
 }
 
 .cards:hover img {
@@ -165,14 +179,23 @@ h2 {
 
 .direccionContacto ul {
   list-style: none;
+  margin-top: 0px;
 }
 
 .direccionContacto li {
   font-size: 2.4rem;
   color: black;
+  margin: 40px;
   font-weight: 700;
-  margin-top: 55px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .direccionContacto li {
+    font-size: 1.8rem;
+    color: black;
+    margin: 20px;
+  }
 }
 
 /* fin TEXTO DIRECCION Y CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -217,6 +240,13 @@ h2 {
   margin-right: 25%;
 }
 
+@media (max-width: 650px) {
+  .formulario {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
 .formulario div {
   width: 100%;
 }
@@ -241,8 +271,13 @@ h2 {
 /* fin FORMULARIO -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio FAQ */
 .faq {
+  margin: 20px 0px;
   font-size: 1.8rem;
   color: black;
+}
+
+.faq div {
+  margin: 20px 5px;
 }
 
 .faq div :active {
@@ -254,6 +289,13 @@ h2 {
   color: black;
 }
 
+@media (max-width: 600px) {
+  .faq div h3 button {
+    font-size: 1.4rem;
+    color: black;
+  }
+}
+
 .faq div .botonAcordion {
   background-color: whitesmoke;
 }
@@ -261,6 +303,13 @@ h2 {
 .faq div div div {
   font-size: 1.6rem;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .faq div div div {
+    font-size: 1.4rem;
+    color: black;
+  }
 }
 
 /* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -274,6 +323,17 @@ h2 {
   margin-bottom: 10px;
 }
 
+.divisorVioletaTop2SmallHide {
+  border-top: solid #9466DB 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .divisorVioletaTop2SmallHide {
+    display: none;
+  }
+}
+
 .divisorVioletaFooter {
   border-top: solid #9466DB 20px;
   margin: 30px 0px 20px 0px;
@@ -282,6 +342,17 @@ h2 {
 .divisorVioleta {
   border-top: solid #9466DB 20px;
   margin: 20px 0px 30px 0px;
+}
+
+.divisorSmall {
+  border-top: none;
+}
+
+@media (max-width: 650px) {
+  .divisorSmall {
+    border-top: solid #9466DB 20px;
+    margin: 20px 0px 30px 0px;
+  }
 }
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
@@ -328,7 +399,10 @@ footer p {
 
 .redesSocialesFooter {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 90%;
 }
 
 .redesSocialesFooter ul {
@@ -341,11 +415,11 @@ footer p {
   margin-top: 20px;
 }
 
-.redesSocialesFooter ul li img {
+.redesSocialesFooter ul img {
   margin: 10px 5px;
 }
 
-.redesSocialesFooter ul li a {
+.redesSocialesFooter ul a {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -360,8 +434,9 @@ footer p {
   font-size: 1.6rem;
   color: black;
   border-radius: 12px;
-  margin-top: 3px;
-  margin-bottom: 10px;
+  padding: 5px;
+  width: 60%;
+  margin: auto;
 }
 
 .menuFooter a {

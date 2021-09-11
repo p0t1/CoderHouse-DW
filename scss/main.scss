@@ -54,6 +54,7 @@ $blancoHumo: whitesmoke;
     border-top: solid $violeta 1px;
     border-bottom: solid $violeta 1px;
     font-weight: 800;
+    width: 100%;
 }
 
 %tituloVioleta {
@@ -118,6 +119,9 @@ h1 {
 h2 {
     @extend %tituloVerde;
     margin: 20px 0px;
+    @media (max-width: 600px){
+        font-size: 1.8rem;
+    }
 }
 
 .contenedor {
@@ -136,7 +140,7 @@ h2 {
         border-radius: 25px;
     }
     .cardsSpan {
-        @include fontSet(1.8rem,black );
+        @include fontSet(1.7rem,black );
         font-weight: 500;
         background-color: $verde;
         bottom: 0px;
@@ -147,6 +151,9 @@ h2 {
         width: 100%;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        @media (max-width:600px) {
+            @include fontSet(1.5rem,black );
+        }
     }
 }
 
@@ -206,15 +213,19 @@ h2 {
     margin: 10px 0px;
     ul {
     list-style: none;
-    
+    margin-top: 0px; 
     }
     li {
         @include fontSet(2.4rem, black);
+        margin: 40px;
         font-weight: 700;
-        margin-top: 55px;
         text-align: center;
+        @media (max-width: 600px) {
+            @include fontSet(1.8rem, black);
+            margin: 20px
         }
-    }   
+    }
+    }  
 
 /* fin TEXTO DIRECCION Y CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -235,6 +246,7 @@ h2 {
         display:none !important;
     }
 }
+
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -262,6 +274,10 @@ h2 {
 .formulario {
     margin-left: 25%;
     margin-right: 25%;
+    @media (max-width: 650px) {
+        width: 100%;
+        margin: 10px;
+    }
     div {
         width: 100%;
     }
@@ -288,14 +304,19 @@ h2 {
 /* inicio FAQ */
 
 .faq {
+    margin: 20px 0px;
     @include fontSet(1.8rem, black);
     div {
+        margin: 20px 5px;
         :active {
             color: $verde;
         }
         h3 {
             button {
                 @include fontSet(1.8rem, black);
+                @media (max-width: 600px){
+                    @include fontSet(1.4rem,black )
+                }
             }
         }
         .botonAcordion {
@@ -304,6 +325,9 @@ h2 {
         div {
             div {
                 @include fontSet(1.6rem, black);
+                @media (max-width: 600px){
+                    @include fontSet(1.4rem,black )
+                }
             }
         }
     }
@@ -324,6 +348,14 @@ h2 {
     margin-bottom: 10px;
 }
 
+.divisorVioletaTop2SmallHide {
+    border-top: solid $violeta 20px;
+    margin-bottom: 10px;
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
 .divisorVioletaFooter {
     border-top: solid $violeta 20px;
     margin: 30px 0px 20px 0px;
@@ -332,6 +364,14 @@ h2 {
 .divisorVioleta {
     border-top: solid $violeta 20px;
     margin: 20px 0px 30px 0px;
+}
+
+.divisorSmall {
+    border-top: none;
+    @media (max-width: 650px) {
+        border-top: solid $violeta 20px;
+        margin: 20px 0px 30px 0px;
+    }
 }
 
 /* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
@@ -359,6 +399,7 @@ footer {
     margin: 0px 10px 10px;
     border-radius: 20px;
     width: 100%;
+
 }
 
 .direccionContactoFooter {
@@ -375,17 +416,24 @@ footer {
         margin-top: 22px;
         text-align: center;
         }
-    } 
+}
+
 
 .redesSocialesFooter{
     
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+
     ul {
         list-style: none;
+
         li {
             @include fontSet(1.6rem, black);
             margin-top: 20px;
+            }
             img {
                 @extend %iconos;
                 margin: 10px 5px;
@@ -398,16 +446,16 @@ footer {
         }
 
     }
-    
-}
+
 .menuFooter {
     text-align: center;
-    margin: 5px 0px 0px 0px;    
+    margin: 5px 0px 0px 0px;
     li {   
         @include fontSet(1.6rem,black);
         border-radius: 12px;
-        margin-top: 3px;
-        margin-bottom: 10px;
+        padding: 5px;
+        width: 60%;
+        margin: auto;
     }
         a {
             color: black;
