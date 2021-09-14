@@ -25,11 +25,11 @@ footer {
     list-style: none;
     }
     li {
-        @include fontSet(1.8rem, black);
+        @include fontSet(1.6rem, black);
         @media (max-width: 800px) {
-            @include fontSet(1.6rem, black)
+            @include fontSet(1.4rem, black)
         }
-        font-weight: 800;
+        font-weight: 700;
         text-align: left;
         margin-top: 22px;
         text-align: center;
@@ -74,7 +74,7 @@ footer {
     }
         a {
             color: black;
-            font-weight: 500;
+            font-weight: 600;
             text-decoration: none;
         }
         a:hover {
