@@ -131,7 +131,6 @@ h2 {
     width: 98%;
 }
 .cards {
-    padding: 0px;
     position: relative;
     text-align: center;
     justify-content: center;
@@ -144,11 +143,11 @@ h2 {
     }
     .cardsSpan {
         @include fontSet(1.7rem,black );
-        font-weight: 500;
+        font-weight: 400;
         background-color: $verde;
         bottom: 0px;
         left: 0px;
-        padding: 5px 0px 0px 10px;
+        padding: 5px 10px 0px 10px;
         position: absolute;
         text-align: center;
         width: 100%;
@@ -182,18 +181,28 @@ h2 {
         text-align: center;
         padding: 10px 0px;
         margin: 0px;
+        @media (max-width: 600) {
+            font-size: 1.7rem;
+        }
     }
     p {
         background-color: white;
         font-size: 1.6rem;
-        padding: 10px 0px;
+        padding: 10px 5px;
         margin: 0px;
+        height: 130px;
+        @media (max-width: 600px) {
+            font-size: 1.4rem;  
+            height: 120px;
+        }
     }
     button {
         font-size: 1.6rem;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         padding: 5px;
+        text-align: center;
+
     }
 }
 
@@ -418,17 +427,11 @@ footer {
     justify-content:space-around;
 }
 
-.GoogleMapsFooter *{
-    margin: 0px 10px 10px;
-    border-radius: 20px;
-    width: 100%;
-
-}
-
 .direccionContactoFooter {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0px 0px 10px 0px;
     ul {
     list-style: none;
     }
@@ -454,7 +457,7 @@ footer {
         list-style: none;
 
         li {
-            @include fontSet(1.6rem, black);
+            @include fontSet(1.4rem, black);
             margin-top: 20px;
             }
             img {
@@ -482,7 +485,7 @@ footer {
     }
         a {
             color: black;
-            font-weight: 600;
+            font-weight: 500;
             text-decoration: none;
         }
         a:hover {
@@ -497,8 +500,9 @@ footer {
 }
 
 .LogoFooter {
+    align-content: space-between;
+    margin: 15px 0px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 /* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
