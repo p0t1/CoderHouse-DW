@@ -430,17 +430,9 @@ footer p {
 /* fin PAGINA GOOGLE MAPS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio FAQ */
 .faq {
-  margin: 20px 0px;
+  margin: 30px 0px;
   font-size: 1.8rem;
   color: black;
-}
-
-.faq div {
-  margin: 20px 5px;
-}
-
-.faq div :active {
-  color: #99CF68;
 }
 
 .faq div h3 button {

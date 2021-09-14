@@ -1,13 +1,9 @@
 /* inicio FAQ */
 
 .faq {
-    margin: 20px 0px;
+    margin: 30px 0px;
     @include fontSet(1.8rem, black);
     div {
-        margin: 20px 5px;
-        :active {
-            color: $verde;
-        }
         h3 {
             button {
                 @include fontSet(1.8rem, black);
