@@ -1,0 +1,34 @@
+/* inicio FAQ */
+
+.faq {
+    margin: 20px 0px;
+    @include fontSet(1.8rem, black);
+    div {
+        margin: 20px 5px;
+        :active {
+            color: $verde;
+        }
+        h3 {
+            button {
+                @include fontSet(1.8rem, black);
+                @media (max-width: 600px){
+                    @include fontSet(1.4rem,black )
+                }
+            }
+        }
+        .botonAcordion {
+            background-color: whitesmoke;
+        }
+        div {
+            div {
+                @include fontSet(1.6rem, black);
+                @media (max-width: 600px){
+                    @include fontSet(1.4rem,black )
+                }
+            }
+        }
+    }
+}
+
+
+/* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

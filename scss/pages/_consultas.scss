@@ -1,0 +1,35 @@
+/* inicio FORMULARIO */
+
+.bigicon {
+    font-size: 1.8rem;
+    color: $verde;
+}
+
+.formulario {
+    margin-left: 25%;
+    margin-right: 25%;
+    @media (max-width: 650px) {
+        width: 100%;
+        margin: 10px;
+    }
+    div {
+        width: 100%;
+    }
+    * {
+    @include fontSet(1.8rem,black );
+    }
+
+}
+
+.formularioItem {
+    margin-top: 10px;
+    button {
+        display: flex;
+        justify-content: left;
+        margin: 10px;
+        background-color: $verde;
+        border: #A5E6BA;
+    }
+}
+
+/* fin FORMULARIO -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

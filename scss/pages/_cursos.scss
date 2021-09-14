@@ -1,0 +1,52 @@
+/* inicio CURSOS */
+
+.curso {
+    margin: 20px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    h3 {
+        background-color: $verde;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0px;
+        @media (max-width: 600) {
+            font-size: 1.7rem;
+        }
+    }
+    p {
+        background-color: white;
+        font-size: 1.6rem;
+        padding: 10px 5px;
+        margin: 0px;
+        height: 130px;
+        @media (max-width: 600px) {
+            font-size: 1.4rem;  
+            height: 120px;
+        }
+    }
+    button {
+        font-size: 1.6rem;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 5px;
+        text-align: center;
+
+    }
+}
+
+.curso:hover img {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.curso:hover h3  {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+
+/* fin CURSOS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
