@@ -358,6 +358,7 @@ footer p {
 }
 
 .curso button {
+  border-color: #99CF68;
   font-size: 1.6rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
