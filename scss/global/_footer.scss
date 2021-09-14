@@ -7,7 +7,6 @@ footer {
         text-align: center;
         padding: 12px;
         margin-bottom: 0px;
-        
     }
 }
 
@@ -45,10 +44,8 @@ footer {
     justify-content: space-around;
     margin: auto;
     width: 90%;
-
     ul {
         list-style: none;
-
         li {
             @include fontSet(1.4rem, black);
             margin-top: 20px;
@@ -63,13 +60,11 @@ footer {
             font-weight: bold;
             }
         }
-
     }
 
 .menuFooter {
     text-align: center;
     margin: 5px 0px 0px 0px;
-
     li {   
         @include fontSet(1.6rem,black);
         border-radius: 12px;
