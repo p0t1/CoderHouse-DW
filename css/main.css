@@ -6,19 +6,6 @@
   height: 32px;
 }
 
-h2 {
-  display: flex;
-  justify-content: center;
-  background-color: #99CF68;
-  padding: 10px;
-  font-size: 2.4rem;
-  margin: 5px 0px 10px 0px;
-  border-top: solid #9466DB 1px;
-  border-bottom: solid #9466DB 1px;
-  font-weight: 800;
-  width: 100%;
-}
-
 /* fin PLACEHOLDER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio MIXING */
 /* fin MIXING --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -150,40 +137,25 @@ footer p {
 }
 
 /* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio DEFAULT */
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+/* inicio CAROUSEL */
+.carrusel * {
+  border-radius: 12px;
 }
 
-html {
-  font-size: 62.5%;
-  background-color: whitesmoke;
-  font-family: 'Domine', serif;
+.carrusel * .carruselInner img {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
 }
 
-body {
-  background-color: whitesmoke;
-  font-family: 'Domine', serif;
-}
-
-/* fin DEFAULT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio CURSOS INDEX */
-h1 {
-  display: none;
-}
-
-h2 {
-  margin: 20px 0px;
-}
-
-@media (max-width: 750px) {
-  h2 {
-    font-size: 1.8rem;
+@media (max-width: 900px) {
+  #carouselExampleSlidesOnly {
+    display: none;
   }
 }
 
+/* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio CURSOS INDEX */
 .contenedor {
   width: 98%;
 }
@@ -229,110 +201,7 @@ h2 {
 }
 
 /* fin CURSOS INDEX -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio CURSOS */
-.curso {
-  margin: 20px 10px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.curso h3 {
-  background-color: #99CF68;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  font-size: 2rem;
-  text-align: center;
-  padding: 10px 0px;
-  margin: 0px;
-}
-
-@media (max-width: 600) {
-  .curso h3 {
-    font-size: 1.7rem;
-  }
-}
-
-.curso p {
-  background-color: white;
-  font-size: 1.6rem;
-  padding: 10px 5px;
-  margin: 0px;
-  height: 130px;
-}
-
-@media (max-width: 600px) {
-  .curso p {
-    font-size: 1.4rem;
-    height: 120px;
-  }
-}
-
-.curso button {
-  font-size: 1.6rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding: 5px;
-  text-align: center;
-}
-
-.curso:hover img {
-  opacity: 0.7;
-  transition: 1s;
-}
-
-.curso:hover h3 {
-  opacity: 0.7;
-  transition: 1s;
-}
-
-/* fin CURSOS ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio TEXTO DIRECCION Y CONTACTO */
-.direccionContacto {
-  margin: 10px 0px;
-}
-
-.direccionContacto ul {
-  list-style: none;
-  margin-top: 0px;
-}
-
-.direccionContacto li {
-  font-size: 2.4rem;
-  color: black;
-  margin: 40px;
-  font-weight: 700;
-  text-align: center;
-}
-
-@media (max-width: 900px) {
-  .direccionContacto li {
-    font-size: 1.8rem;
-    color: black;
-    margin: 20px;
-  }
-}
-
-/* fin TEXTO DIRECCION Y CONTACTO ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio CAROUSEL */
-.carrusel * {
-  border-radius: 12px;
-}
-
-.carrusel * .carruselInner img {
-  margin: auto;
-  margin-bottom: 10px;
-  width: 80%;
-}
-
-@media (max-width: 900px) {
-  #carouselExampleSlidesOnly {
-    display: none;
-  }
-}
-
-/* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*textos INDEX*/
+/* inicio TEXTO INDEX*/
 .sobreIdip {
   margin: 20px 5px 5px 20px;
   margin: auto;
@@ -353,143 +222,5 @@ h2 {
   font-style: italic;
 }
 
-/* inicio PAGINA GOOGLE MAPS */
-.parrafoGoogleMaps {
-  font-size: 1.8rem;
-  color: black;
-  text-align: center;
-}
-
-.margenesGoogleMaps {
-  margin-bottom: 10px;
-}
-
-/* fin PAGINA GOOGLE MAPS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio FORMULARIO */
-.bigicon {
-  font-size: 1.8rem;
-  color: #99CF68;
-}
-
-.formulario {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-@media (max-width: 650px) {
-  .formulario {
-    width: 100%;
-    margin: 10px;
-  }
-}
-
-.formulario div {
-  width: 100%;
-}
-
-.formulario * {
-  font-size: 1.8rem;
-  color: black;
-}
-
-.formularioItem {
-  margin-top: 10px;
-}
-
-.formularioItem button {
-  display: flex;
-  justify-content: left;
-  margin: 10px;
-  background-color: #99CF68;
-  border: #A5E6BA;
-}
-
-/* fin FORMULARIO -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio FAQ */
-.faq {
-  margin: 20px 0px;
-  font-size: 1.8rem;
-  color: black;
-}
-
-.faq div {
-  margin: 20px 5px;
-}
-
-.faq div :active {
-  color: #99CF68;
-}
-
-.faq div h3 button {
-  font-size: 1.8rem;
-  color: black;
-}
-
-@media (max-width: 600px) {
-  .faq div h3 button {
-    font-size: 1.4rem;
-    color: black;
-  }
-}
-
-.faq div .botonAcordion {
-  background-color: whitesmoke;
-}
-
-.faq div div div {
-  font-size: 1.6rem;
-  color: black;
-}
-
-@media (max-width: 600px) {
-  .faq div div div {
-    font-size: 1.4rem;
-    color: black;
-  }
-}
-
-/* fin FAQ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/* inicio DIVISOR */
-.divisorVioletaTop1 {
-  border-top: solid #9466DB 20px;
-}
-
-.divisorVioletaTop2 {
-  border-top: solid #9466DB 20px;
-  margin-bottom: 10px;
-}
-
-.divisorVioletaTop2SmallHide {
-  border-top: solid #9466DB 20px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 900px) {
-  .divisorVioletaTop2SmallHide {
-    display: none;
-  }
-}
-
-.divisorVioletaFooter {
-  border-top: solid #9466DB 20px;
-  margin: 30px 0px 20px 0px;
-}
-
-.divisorVioleta {
-  border-top: solid #9466DB 20px;
-  margin: 20px 0px 30px 0px;
-}
-
-.divisorSmall {
-  border-top: none;
-}
-
-@media (max-width: 650px) {
-  .divisorSmall {
-    border-top: solid #9466DB 20px;
-    margin: 20px 0px 30px 0px;
-  }
-}
-
-/* fin DIVISOR -----------------------------------------------------------------------------------------------------------------*/
+/*fin TEXTO INDEX --------------------------------------------------------------------------------------------------*/
 /*# sourceMappingURL=main.css.map */
