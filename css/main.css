@@ -83,6 +83,12 @@ h2 {
   margin: 30px 0px 20px 0px;
 }
 
+@media (max-width: 990px) {
+  .divisorVioletaFooter {
+    display: none;
+  }
+}
+
 .divisorVioleta {
   border-top: solid #9466DB 20px;
   margin: 20px 0px 30px 0px;
@@ -358,7 +364,8 @@ footer p {
 }
 
 .curso button {
-  border-color: #99CF68;
+  background-color: whitesmoke;
+  border-color: white;
   font-size: 1.6rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -431,7 +438,7 @@ footer p {
 /* fin PAGINA GOOGLE MAPS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio FAQ */
 .faq {
-  margin: 30px 0px;
+  margin: auto;
   font-size: 1.8rem;
   color: black;
 }
