@@ -350,7 +350,7 @@ footer p {
   height: 130px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1280px) {
   .curso p {
     font-size: 1.4rem;
     height: 160px;
