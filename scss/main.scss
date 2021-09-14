@@ -1,3 +1,6 @@
+
+
+
 /* inicio DEFAULT */
 
 * {
@@ -243,12 +246,31 @@ h2 {
 
 @media (max-width:900px) {
     #carouselExampleSlidesOnly {
-        display:none !important;
+        display:none;
     }
 }
 
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*textos INDEX*/
+
+.sobreIdip {
+    margin: 20px 5px 5px 20px;
+    margin: auto;
+    border: solid $violeta 2px;
+    border-radius: 12px;
+    justify-content: center;
+    ul {
+    margin: 10px;
+        li {
+            @include fontSet(1.8rem,black );
+            margin: 10px 0px;
+            font-weight: 400;
+            font-style: italic;
+        }
+    }
+}
 
 
 /* inicio PAGINA GOOGLE MAPS */
@@ -369,6 +391,7 @@ h2 {
 .divisorSmall {
     border-top: none;
     @media (max-width: 650px) {
+
         border-top: solid $violeta 20px;
         margin: 20px 0px 30px 0px;
     }

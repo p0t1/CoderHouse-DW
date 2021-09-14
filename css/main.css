@@ -212,11 +212,32 @@ h2 {
 
 @media (max-width: 900px) {
   #carouselExampleSlidesOnly {
-    display: none !important;
+    display: none;
   }
 }
 
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*textos INDEX*/
+.sobreIdip {
+  margin: 20px 5px 5px 20px;
+  margin: auto;
+  border: solid #9466DB 2px;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+.sobreIdip ul {
+  margin: 10px;
+}
+
+.sobreIdip ul li {
+  font-size: 1.8rem;
+  color: black;
+  margin: 10px 0px;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /* inicio PAGINA GOOGLE MAPS */
 .parrafoGoogleMaps {
   font-size: 1.8rem;
