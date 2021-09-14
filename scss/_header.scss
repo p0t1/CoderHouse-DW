@@ -1,0 +1,29 @@
+/* inicio HEADER */
+
+    /* inicio MENU PRINCIPAL */
+
+    .menuPrincipal {  
+        img {
+            width: 200px;
+            height: 80px;
+            margin-left: 10px;
+        }    
+        li {
+            padding: 10px;
+            border-radius: 12px;
+        }
+        li:hover {
+            background-color: $verde;
+            transition: 850ms;
+        }
+        li a {
+            @include fontSet(1.8rem,black);
+            font-weight: 600;
+            font-stretch: expanded;
+        }
+    }
+
+    /* fin MENU PRINCIPAL ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* fin HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
