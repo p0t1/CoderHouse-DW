@@ -6,9 +6,57 @@
   height: 32px;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #99CF68;
+  padding: 10px;
+  font-size: 2.4rem;
+  margin: 5px 0px 10px 0px;
+  border-top: solid #9466DB 1px;
+  border-bottom: solid #9466DB 1px;
+  font-weight: 800;
+  width: 100%;
+}
+
 /* fin PLACEHOLDER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio MIXING */
 /* fin MIXING --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio DEFAULT */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: whitesmoke;
+  font-family: 'Domine', serif;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Domine', serif;
+}
+
+/* fin DEFAULT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* inicio TITULOS */
+h1 {
+  display: none;
+}
+
+h2 {
+  margin: 20px 0px;
+}
+
+@media (max-width: 750px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* fin TITULOS -------------------------------------------------------*/
 /* inicio DIVISOR */
 .divisorVioletaTop1 {
   border-top: solid #9466DB 20px;

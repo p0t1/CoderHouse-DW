@@ -1,0 +1,40 @@
+/* inicio DEFAULT */
+
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: whitesmoke;
+    font-family: 'Domine', serif;
+
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Domine', serif;
+
+}
+
+/* fin DEFAULT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* inicio TITULOS */
+
+h1 {
+    display: none;
+}
+
+h2 {
+    @extend %tituloVerde;
+    margin: 20px 0px;
+    @media (max-width: 750px){
+        font-size: 1.8rem;
+    }
+}
+
+/* fin TITULOS -------------------------------------------------------*/
+
+
