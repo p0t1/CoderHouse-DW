@@ -66,6 +66,7 @@ footer {
 .menuFooter {
     text-align: center;
     margin: 5px 0px 0px 0px;
+
     li {   
         @include fontSet(1.6rem,black);
         border-radius: 12px;

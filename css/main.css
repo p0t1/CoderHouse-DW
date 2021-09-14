@@ -89,6 +89,7 @@ h2 {
 }
 
 .divisorSmall {
+  width: fit-content;
   border-top: none;
 }
 
@@ -229,11 +230,8 @@ footer p {
 
 /* fin FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio CAROUSEL */
-.carrusel * {
+.carrusel .carruselInner img {
   border-radius: 12px;
-}
-
-.carrusel * .carruselInner img {
   margin: auto;
   margin-bottom: 10px;
   width: 80%;
@@ -248,7 +246,7 @@ footer p {
 /* fin CAROUSEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio CURSOS INDEX */
 .contenedor {
-  width: 98%;
+  width: 92%;
 }
 
 .cards {
@@ -294,8 +292,8 @@ footer p {
 /* fin CURSOS INDEX -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio TEXTO INDEX*/
 .sobreIdip {
-  margin: 20px 5px 5px 20px;
-  margin: auto;
+  margin: 20px auto;
+  width: 92%;
   border: solid #9466DB 2px;
   border-radius: 12px;
   justify-content: center;
