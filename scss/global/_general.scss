@@ -6,13 +6,11 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-    background-color: whitesmoke;
-    font-family: 'Domine', serif;
-}
 
-body {
+html, body {
+    font-size: 62.5%;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: whitesmoke;
     font-family: 'Domine', serif;
 }

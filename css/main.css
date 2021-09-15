@@ -29,13 +29,10 @@ h2 {
   box-sizing: border-box;
 }
 
-html {
+html, body {
   font-size: 62.5%;
-  background-color: whitesmoke;
-  font-family: 'Domine', serif;
-}
-
-body {
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: whitesmoke;
   font-family: 'Domine', serif;
 }
@@ -260,13 +257,14 @@ footer p {
 /* inicio CURSOS INDEX */
 .contenedor {
   width: 92%;
+  margin: auto;
 }
 
 .cards {
   position: relative;
   text-align: center;
   justify-content: center;
-  margin: 15px 0px 15px 0px;
+  margin: 15px auto;
 }
 
 .cards img {
