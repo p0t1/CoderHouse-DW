@@ -1,6 +1,8 @@
 /* inicio FOOTER */
 
 footer {
+
+
     p {
         @include fontSet(2rem, whitesmoke);
         background-color: $violeta;
