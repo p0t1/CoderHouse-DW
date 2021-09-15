@@ -9,7 +9,7 @@
             margin-left: 10px;
         }    
         li {
-            padding: 10px;
+            padding: 8px;
             border-radius: 12px;
         }
         li:hover {
@@ -17,7 +17,7 @@
             transition: 850ms;
         }
         li a {
-            @include fontSet(1.8rem,black);
+            @include fontSet(1.7rem,black);
             font-weight: 600;
             font-stretch: expanded;
         }
