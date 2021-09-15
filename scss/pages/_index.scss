@@ -36,7 +36,7 @@
     }
     .cardsSpan {
         @include fontSet(1.7rem,black);
-        font-weight:lighter;
+        font-weight: normal;
         background-color: $verde;
         bottom: 0px;
         left: 0px;
