@@ -20,7 +20,11 @@ html, body {
 /* inicio TITULOS */
 
 h1 {
-    display: none;
+    @extend %tituloVerde;
+    margin: 20px 0px;
+    @media (max-width: 750px){
+        font-size: 1.7rem;
+    }
 }
 
 h2 {
