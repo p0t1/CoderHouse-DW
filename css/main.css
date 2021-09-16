@@ -6,7 +6,7 @@
   height: 32px;
 }
 
-h2 {
+h1, h2 {
   display: flex;
   justify-content: center;
   background-color: #99CF68;
@@ -40,7 +40,13 @@ html, body {
 /* fin DEFAULT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* inicio TITULOS */
 h1 {
-  display: none;
+  margin: 20px 0px;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.7rem;
+  }
 }
 
 h2 {
