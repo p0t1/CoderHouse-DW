@@ -12,12 +12,12 @@ el objetivo de este proyecto es aplicar todo lo aprendido en el curso de Desarro
 
 ## Demostracion de sitio productivo
 
-[Instituto IDIP - Coderhouse](https://p0t1.github.io/CoderHouse_IDIP/)
+[Instituto IDIP - Coderhouse](https://p0t1.github.io/CoderHouse_DW/)
 
    
 ## Repositorio de GIT
 
-- [Hernán Loureiro](https://github.com/p0t1/CoderHouse_IDIP)
+- [Hernán Loureiro](https://github.com/p0t1/CoderHouse_DW)
 
 
   
